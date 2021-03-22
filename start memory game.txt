@@ -1,0 +1,26 @@
+afbeeldingen random plaatsen
+	array -> shuffle
+
+2 afbeeldingen controlen
+	als niet correct, dan rood
+	als wel correct groen -> laten staan -> niet meer klikbaar!
+
+	zodra 1 plaatjes/div -> plaatsen in tijdelijke array.
+	zodra 2 plaatje/div -> tijdelijke array
+		zijn ze gelijk? 
+			finised array
+				als 8/16 waardes in array -> het winst scherm
+		zijn ze niet gelijk?
+			rode effect
+			tijdelijke array leegmaken
+			kaarten omdraaien
+			
+		
+
+styling met css en html
+	grid
+	omdraaien/controleren -> classes gebruiken voorzichtbaar en onzichtbaar
+
+score bijhouden(fouten)
+tijd bijhouden
+het spel (her)starten

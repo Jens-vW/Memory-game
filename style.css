@@ -1,0 +1,87 @@
+*, body
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    margin: 0px auto !important;
+    width: 1200px;
+    height: 1200px;
+    background-image: url("wallpaper.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+h1
+{
+    margin: 6% 0 4% 0;
+    font-size: 42px;
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-transform: uppercase;
+    text-align: center;
+}
+#memory
+{
+    margin: 0px auto;
+    display: flex;
+    flex-flow: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    padding: 10px;
+    width: 800px;
+    height: 800px;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 0, 0.6);
+}
+#memory #faceDown, #memory #faceUp
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+}
+#memory #faceDown
+{
+    background-color: lightgrey;
+    color: lightgrey;
+}
+#memory #faceUp
+{
+    background-color: darkgray;
+    color: white;
+}
+#memory #correct
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    background-color: green;
+}
+#memory #incorrect
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 180px;
+    height: 180px;
+    border-radius: 10px;
+    background-color: red;
+}
+#memory div
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#memory i
+{
+    font-size: 80px;
+    color: white;
+}
