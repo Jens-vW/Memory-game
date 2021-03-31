@@ -13,14 +13,35 @@ body
     background-position: center;
     background-repeat: no-repeat;
 }
-h1
+h1, h3, p
 {
-    margin: 6% 0 4% 0;
-    font-size: 42px;
+    margin: 2% 0 2% 0;
     color: white;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
     text-transform: uppercase;
     text-align: center;
+}
+p
+{
+    color: gold;
+    font-size: 30px;
+}
+p i
+{
+    margin: 0 4px;
+}
+h1
+{
+    font-size: 42px;
+}
+h3
+{
+    font-size: 22px;
+}
+#restart
+{
+    color: lightgrey;
+    cursor: pointer;
 }
 #memory
 {
@@ -35,7 +56,7 @@ h1
     border-radius: 10px;
     background-color: rgba(0, 0, 0, 0.6);
 }
-#memory #faceDown, #memory #faceUp
+#memory .faceDown, #memory .faceUp
 {
     display: flex;
     justify-content: center;
@@ -44,17 +65,18 @@ h1
     height: 180px;
     border-radius: 10px;
 }
-#memory #faceDown
+#memory .faceDown
 {
     background-color: lightgrey;
     color: lightgrey;
+    cursor: pointer;
 }
-#memory #faceUp
+#memory .faceUp
 {
     background-color: darkgray;
     color: white;
 }
-#memory #correct
+#memory .correct
 {
     display: flex;
     justify-content: center;
@@ -64,7 +86,7 @@ h1
     border-radius: 10px;
     background-color: green;
 }
-#memory #incorrect
+#memory .incorrect
 {
     display: flex;
     justify-content: center;
